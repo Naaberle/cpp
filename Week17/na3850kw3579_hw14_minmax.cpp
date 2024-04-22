@@ -1,9 +1,9 @@
 //File Name: na3850kw3579_hw14_minmax.cpp
-//Author: Nik Aberle
-//Email Address: na3850@nyu.edu
+//Author: Nik Aberle & Kristine Wetch
+//Email Address: na3850@nyu.edu // kw3579@nyu.edu
 //Assignment Number: Week 17 - HW14 - MinMax
 //Description: Takes in a vector and uses a recursive function to return a vector with the lowest and highest
-//Last Change: 3/15/2024
+//Last Change: 4/21/2024
 
 #include <iostream>
 #include <vector>
