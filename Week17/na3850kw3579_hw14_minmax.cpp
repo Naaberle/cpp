@@ -56,6 +56,7 @@ vector<T> divConq(vector<T> vec)
 }
 
 int main() {
+     
     vector<int> intInput = {11, 89, 79, 4, 13, 33, 73, 30, 69, 77, 48, 17, 42, 32, 98, 16, 69, 65, 14, 41};
     vector<int> intOutput = divConq(intInput);
     cout<<"Minimum Integer: "<<intOutput[0]<<", Maximum Integer: "<<intOutput[1]<<endl;
@@ -77,6 +78,23 @@ int main() {
     vector<char> chrInput = {'s', 'd', 'a', 't', 'm', 'h', 'e', 'p', 'r', 'b', 'i', 'n', 'o', 'c', 'k', 'f', 'g', 'l', 'q', 'j'};
     vector<char> chrOutput = divConq(chrInput);
     cout<<"Lowest Character: "<<chrOutput[0]<<", Largest Character: "<<chrOutput[1]<<endl;
+ 
+/* 
+    //Uncomment this out to test user inputted vectors
+    //Be sure to adjust the type of userVec & userInput before running
+    vector<int> userVec;   //<--- Change type of vector here
+    int userInput;         //<--- Change type of input to match vector here.
 
+    cout<<"Please enter your list of values. Enter any non-type value when you're finished."<<endl;
+
+    while(cin>>userInput) {
+        userVec.push_back(userInput);
+    }
+
+    cin.clear();
+
+    vector<int> userOutput = divConq(userVec);   //<--- Change type of vector here to match userVec;
+    cout<<"Minimum value: "<<userOutput[0]<<", Maximum Value: "<<userOutput[1]<<endl;
+*/
     return 0;
 }
